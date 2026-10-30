@@ -1,0 +1,17 @@
+26.10.21
+Preparation of LB broth
+1. Purpose
+  To prepare solid and liquid LB broth batches, each 500 ml. Solid ones contain 100 μg/ml Amp, 50 μg/ml Kan, 1% glucose and 1.354% agar while liquid ones contain 1% glucose alone.
+2. Procedure
+  2.1 Preparation of solid and liquid LB solutions
+    In 2 flasks, 12.5 g LB powder (25 g ~ 1000 ml solution) each, 500 ml ddH2O each.
+    In solid flask, add additional 6.77 g agar (theoretically 7.5 g as 1.5%, but due to practical reasons only 1.354% was available; it is argued that an agar concentration of 1-1.5% is allowed).
+    Both flasks are autoclaved.
+  2.2 Preparation of glucose solution (10%)
+    In a 50-ml centrifugation tube, 10 g D-glucose, 50 ml ddH2O. Vortex/heat till dissolved.
+    Filter-sterilize the solution through a 0.22 μm filter in the clean bench to get 20% glucose solution.
+    Filter-sterilize 50 ml ddH2O (0.22 μm filter). Take 25 ml ddH2O and mix with 25 ml 20% glucose solution in a 50-ml tube, and the same in another to get 2 tubes of 10% glucose solution.
+  2.3 Preparation of LB broths
+    After autoclavation, both flask are mixed with 50 ml 10% glucose solution respectively to dilute the glucose concentration to 1%. Liquid flask labeled "HXR 1% Glc".
+    In solid flask, add additional 500 μl 100 mg/ml Amp and 500 μl 50 mg/ml Kan to dilute the concentrations to 100 μg/ml and 50 μg/ml respectively.
+    Pour plates. Label as "Amp+Kan+1% Glc". Store plates & liquid flask in refrigerator, top drawer to the right.

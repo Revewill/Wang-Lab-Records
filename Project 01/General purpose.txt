@@ -1,0 +1,46 @@
+Purpose: to demonstrate to students that Cas9, under the guidance of proper sgRNAs, can cleave specific sites.
+
+Method III (original, given up)
+Dual plasmid:
+  T=guided to ccdB
+  NT=guided to GFP, which is absent in this system
+    Plasmid1: sgRNA(T)-Cas9-AmpR
+    Plasmid2: sgRNA(NT)-Cas9-AmpR
+    Plasmid3: ccdB(IPTG induced)-KanR
+Target=Plasmid1+3
+NT=Plasmid2+3
+Plate1=Amp+IPTG
+Plate2=Amp+Kan+IPTG
+Cultured on 2*2 plates respectively
+Expected result:
+  NT on plate 1 ×, on plate 2 ×
+  T on plate 1 √, on plate 2 × (as Cas9 creates DSB on plasmid3 and plasmid3 is then digested by exonuclease)
+Actual result:
+  NT on plate 1 √ (probably because some colonies only comprise plasmid2, not 3, through this selection), on plate 2 ×
+  T on plate 1 √, on plate 2 √ (probably because Cas9 cleavage efficiency wasn't 100%, or because KanR expressed product that can exist for a long time)
+Conclusion:
+  Too complex for educational experiment. Try to simplify it by getting rid of the selectivity that ccdB enacts, or to optimize it by introducing artificial HR systems, like λRed (which would involve a third plasmid that carries the HR donor and proves to be incredibly difficult: triple plasmid co-transformation??? not good)
+
+Method I (now trying, where I'm involved)
+Dual plasmid, same as the above
+Target=Plasmid1+3
+NT=Plasmid2+3
+Plate1=Amp+Glc (glucose here serves two purposes: first it prevents ccdB leaked expression; second it serves as additional energy source, referring to SOC medium in an LB system)
+Plate2=Amp+Kan+Glc
+Cultured on 2*2 plates respectively (actually 2*3*2, 2 groups, 3 E.coli concentration gradient as pre-experiment exploration, 2 types of plates)
+Expected result:
+  NT on plate 1 √, on plate 2 √
+  T on plate 1 √, on plate 2 ×
+
+Method II (new approach enlightened by the previous paper: if method I has ccdB as purely a targeted site for CRISPR, why not replace any of its functions to prevent ill results due to leaked expression?)
+Dual plasmid
+  ccdB'=20 bp segment of ccdB, completely function-deprived
+  T=guided to ccdB'
+  NT=guided to GFP
+    Plasmid1: sgRNA(T)-Cas9-AmpR
+    Plasmid2: sgRNA(NT)-Cas9-AmpR
+    Plasmid3: ccdB'(IPTG induced)-KanR ⬅this is the plasmid that I need to construct and amplify in the future
+Target=Plasmid1+3
+NT=Plasmid2+3
+Procedure and expected result would be same as Method II
+Method IV (other options for this demonstration)

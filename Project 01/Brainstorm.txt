@@ -1,0 +1,51 @@
+Method III
+P0: KanR-P_ind(IPTG)-ccdB
+P1: AmpR-Cas9-sg(ccdB)
+P2: AmpR-Cas9-sg(GFP)
+NT=P0+P2
+T=P0+P1
+Cultured on: Amp/IPTG, Amp/Kan/IPTG
+
+The core of Method III: P0 both rescues (KanR) and kills (P_ind(IPTG)-ccdB) the host under different conditions (Kan; IPTG) and combination of conditions (Kan/IPTG)
+The flaw of Method III: P0 and P1 are dissociated (the specific selection for P1 doesn't guarantee P1+P0 dual-plasmid transformed survivors); CRISPR couldn't achieve 100% efficiency (a technically unavoidable reality); the half-lives of expression products of resistance markers introduce timelag that interferes with results (also a technically unavoidable reality; could be partially avoided by raising Kan concentraion or prolonging recovery)
+
+The dilemma: association of P0 to P1 can be achieved by adding a toxic gene to P1 and a corresponding rescue gene to P0; but that extra introduction of the P1 toxic gene results in the loss of observation that P0 loss rescues/kills the host under different conditions, since P0 loss directly leads to the release of P1 toxicity.
+
+Some ideas:
+Idea 1.0
+P0: KanR-P_ind(IPTG)-ccdA
+P1: AmpR-Cas9-sg(ccdA)-P_ind(IPTG)-ccdB
+P2: AmpR-Cas9-sg(GFP)-P_ind(IPTG)-ccdB
+NT=P0+P2
+T=P0+P1
+Cultured on: Amp, Amp/Kan, Amp/IPTG
+Expected: on Amp plates NT and T grows; on Amp/Kan and Amp/IPTG plates, NT grows, and T hardly grows (only unedited ones would grow, and we can infer CRISPR efficiency by counting the colonies)
+
+Idea 1.1
+P3: AmpR-dCas9-sg(ccdA)-P_ind(IPTG)-ccdB
+Add T' group as P3+P0
+T' would grow on Amp, Amp/Kan plates but would hardly grow on Amp/IPTG plates, which proves that dCas9 is located to ccdA, indicating specificity
+But: CRISPRi might be even less efficient and require much more pre-experiment to examine the validity of the sgRNA sequence design
+
+Idea 1.2
+What if P_ind(IPTG) changes locations?
+P0: KanR-P_ind(IPTG)-ccdA
+P1: AmpR-P_ind(IPTG)-Cas9-sg(ccdA)-P_const,strong-ccdB
+P2: AmpR-P_ind(IPTG)-Cas9-sg(GFP)-P_const,strong-ccdB
+NT=P0+P2
+T=P0+P1
+Cultured on: Kan, Kan/IPTG, Kan/IPTG/Amp
+Expected: on Kan plates, NT and T hardly grows (only those with P0 alone could grow); on Kan/IPTG plates, NT grows (those with P0 alone and those with P0+P2) but T hardly grows (only those with P0 alone AND those with P1+P0, in which P0 remains intact due to the imperfect efficiency of CRISPR); on Kan/Amp/IPTG plates, NT grows (those with P0+P2) but T hardly grows (only those with P1+P0, in which P0 remains intact due to the imperfect efficiency of CRISPR)
+Through the result we may infer the efficiency of dual plasmid transformation and the efficiency of Cas9 cleavage
+
+Idea 1.3 (consistent with the core of Method III but cannot address the dilemma mentioned above)
+P0: KanR-P_ind(IPTG)-ccdA-pX-toxic (independent of ccdA-ccdB system)
+P1: AmpR-Cas9-sg(ccdA)-P_ind(IPTG)-ccdB
+P2: AmpR-Cas9-sg(GFP)-P_ind(IPTG)-ccdB
+NT=P0+P2
+T=P0+P1
+Cultured on: Amp/IPTG, Amp/IPTG/Kan, Amp/IPTG/X
+Expected: on Amp/IPTG and Amp/IPTG/Kan plates, NT grows (only those with P2+P0 could grow) and T hardly grows (only those with P1+P0, in which P0 remains intact due to the imperfect efficiency of CRISPR); on Amp/IPTG/X plates, NT and T will not grow (theoretical)
+Involves too many components, will prove difficult to realize
+
+Idea 2.0: achieve maximum simplicity!!!
