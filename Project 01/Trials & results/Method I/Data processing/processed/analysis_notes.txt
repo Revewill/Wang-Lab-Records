@@ -1,0 +1,10 @@
+All p values are two-sided and exploratory.
+b: 3 trial-paired tests; Holm correction across 3 plates.
+e: all 35 selected colony pairs; trial/source fixed effects; HC3 conditional inference. Not 35 trial replicates.
+g: 3 plate-specific conditional tests; Holm correction. Two observed gel trials only.
+c: average NT/T indices within each trial, then mean and sample SD across three trial estimates. Editing uses one Kan-corrected estimate per trial. No NT/T test in c.
+h: descriptive; no equivalence claim from absence of significance.
+Endpoint-PCR signal ratios do not identify plasmid copy-number ratios.
+Negative/undefined model outputs retained, never clipped. Zero counts have no finite log.
+Marker-normalized signals divided by one common reference factor within each trial.
+No p-value or significance direction is predetermined.

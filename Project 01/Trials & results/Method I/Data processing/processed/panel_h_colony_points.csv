@@ -1,0 +1,5 @@
+"run","trial","group","plate","strength","count","ratio_basis","editor_ratio","target_ratio","glucose_percent","pcr_available","source","denominator_mean_Kan_NT_T","relative_count","zero_count","log2_relative_count","main_panel"
+"R1","trial02","NT","Amp_Kan",1,299,"mass",1,1,1,"True","Colony Counts.txt",3341,0.0894941634241245,FALSE,-3.48206259313687,TRUE
+"R1","trial02","NT","Amp_Kan",0.5,753,"mass",1,1,1,"True","Colony Counts.txt",3341,0.225381622268782,FALSE,-2.14955821266304,FALSE
+"R1","trial02","T","Amp_Kan",1,3,"mass",1,1,1,"True","Colony Counts.txt",3341,0.000897934750074828,FALSE,-10.1211017666138,TRUE
+"R1","trial02","T","Amp_Kan",0.5,7,"mass",1,1,1,"True","Colony Counts.txt",3341,0.00209518108350793,FALSE,-8.89870934527737,FALSE

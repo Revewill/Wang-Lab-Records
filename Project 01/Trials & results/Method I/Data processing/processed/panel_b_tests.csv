@@ -1,0 +1,4 @@
+"plate","contrast","estimate","ci_low","ci_high","p_raw","n_trials","method","p_holm","annotation"
+"Amp","T minus NT",-0.0334178018538933,-0.129198025783754,0.062362422075967,0.272119556656449,3,"Paired two-sided t-test on linear relative counts; exploratory",0.544239113312897,""
+"Kan","T minus NT",-0.155305931695775,-0.800023297938105,0.489411434546554,0.408867850952682,3,"Paired two-sided t-test on linear relative counts; exploratory",0.544239113312897,""
+"Amp_Kan","T minus NT",-0.203717076579951,-0.564195916210254,0.156761763050352,0.135573036298369,3,"Paired two-sided t-test on linear relative counts; exploratory",0.406719108895108,""

@@ -1,0 +1,4 @@
+"estimate_log2","se_HC3","df","ci_low","ci_high","p_raw","n_colonies","n_trials","method","scope","plate","contrast","p_holm","annotation"
+-0.806705526291692,1.1228158420044,5,-3.6929955345129,2.07958448192951,0.504632854667998,8,2,"Fixed-effects OLS, HC3, approximate t inference","Exploratory; conditional on observed trials and selected colonies","Amp","T minus NT, log2(AmpR/KanR)",1,""
+-0.108674580066496,0.700673893512686,5,-1.90981416343478,1.69246500330179,0.882809227617473,8,2,"Fixed-effects OLS, HC3, approximate t inference","Exploratory; conditional on observed trials and selected colonies","Kan","T minus NT, log2(AmpR/KanR)",1,""
+-4.00041421493181,1.47884115346616,7,-7.49731787067134,-0.503510559192286,0.0304137591107552,10,2,"Fixed-effects OLS, HC3, approximate t inference","Exploratory; conditional on observed trials and selected colonies","Amp_Kan","T minus NT, log2(AmpR/KanR)",0.0912412773322655,""

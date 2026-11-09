@@ -1,0 +1,2 @@
+"estimate_log2","se_HC3","df","ci_low","ci_high","p_raw","n_colonies","n_trials","method","scope","analysis"
+-1.47271897213178,0.138457640583552,23,-1.75914042404561,-1.18629752021795,2.35616959375268e-10,32,2,"Fixed-effects OLS, HC3, approximate t inference","Exploratory; conditional on observed trials and selected colonies","Sensitivity only: omit three preflagged weak-signal pairs"

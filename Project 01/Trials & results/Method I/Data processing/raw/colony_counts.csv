@@ -1,0 +1,21 @@
+run,trial,group,plate,strength,count,ratio_basis,editor_ratio,target_ratio,glucose_percent,pcr_available,source
+R1,trial02,NT,Amp,1,344,mass,1,1,0,True,Colony Counts.txt
+R1,trial02,NT,Kan,1,3381,mass,1,1,1,True,Colony Counts.txt
+R1,trial02,NT,Amp_Kan,1,299,mass,1,1,1,True,Colony Counts.txt
+R1,trial02,NT,Amp_Kan,0.5,753,mass,1,1,1,True,Colony Counts.txt
+R1,trial02,T,Amp,1,240,mass,1,1,0,True,Colony Counts.txt
+R1,trial02,T,Kan,1,3301,mass,1,1,1,True,Colony Counts.txt
+R1,trial02,T,Amp_Kan,1,3,mass,1,1,1,True,Colony Counts.txt
+R1,trial02,T,Amp_Kan,0.5,7,mass,1,1,1,True,Colony Counts.txt
+R2,trial03_1to1,NT,Amp,1,92,molar,1,1,0,False,Colony Counts(1).txt
+R2,trial03_1to1,NT,Kan,1,1556,molar,1,1,1,False,Colony Counts(1).txt
+R2,trial03_1to1,NT,Amp_Kan,1,465,molar,1,1,1,False,Colony Counts(1).txt
+R2,trial03_1to1,T,Amp,1,97,molar,1,1,0,False,Colony Counts(1).txt
+R2,trial03_1to1,T,Kan,1,980,molar,1,1,1,False,Colony Counts(1).txt
+R2,trial03_1to1,T,Amp_Kan,1,0,molar,1,1,1,False,Colony Counts(1).txt
+R3,trial03_3to1,NT,Amp,1,230,molar,3,1,0,True,Colony Counts(1).txt
+R3,trial03_3to1,NT,Kan,1,1537,molar,3,1,1,True,Colony Counts(1).txt
+R3,trial03_3to1,NT,Amp_Kan,1,244,molar,3,1,1,True,Colony Counts(1).txt
+R3,trial03_3to1,T,Amp,1,117,molar,3,1,0,True,Colony Counts(1).txt
+R3,trial03_3to1,T,Kan,1,1556,molar,3,1,1,True,Colony Counts(1).txt
+R3,trial03_3to1,T,Amp_Kan,1,3,molar,3,1,1,True,Colony Counts(1).txt

@@ -1,0 +1,8 @@
+"panel","comparison","p_raw","p_adjusted","annotation","test_status"
+"b","Amp",0.272119556656449,0.544239113312897,"","not_significant"
+"b","Kan",0.408867850952682,0.544239113312897,"","not_significant"
+"b","Amp_Kan",0.135573036298369,0.406719108895108,"","not_significant"
+"e","AmpR_vs_KanR",1.00310268663342e-06,1.00310268663342e-06,"***","significant"
+"g","Amp",0.504632854667998,1,"","not_significant"
+"g","Kan",0.882809227617473,1,"","not_significant"
+"g","Amp_Kan",0.0304137591107552,0.0912412773322655,"","not_significant"

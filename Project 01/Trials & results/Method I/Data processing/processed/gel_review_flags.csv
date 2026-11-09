@@ -1,0 +1,4 @@
+"run","lane","group","plate","strength","colony_id","review_flag","Amp_marker_normalized","Kan_marker_normalized","source","common_denominator","Amp_signal","Kan_signal","log2_Amp_over_Kan","MA_A","MA_M","main_panel"
+"R1",7,"NT","Amp_Kan",1,"R1_L07","weak_signal_review",0.539000282,0.051393374,"20261105-Normalized lane signals.csv",0.31743301257076,1.69799693369904,0.161903053446729,3.3906317537868,-0.931482023268165,3.3906317537868,TRUE
+"R1",20,"T","Amp_Kan",1,"R1_L20","weak_signal_review",0.011415992,0.807074998,"20261105-Normalized lane signals.csv",0.31743301257076,0.0359634680323465,2.542504925571,-6.14357460912266,-1.72553673555624,-6.14357460912266,TRUE
+"R3",8,"T","Amp",1,"R3_L08","weak_signal_review",0.0602995283967116,0.636741476417176,"20261106-Normalized lane signals.csv",0.549365420250872,0.10976214769611,1.15904906451229,-3.40048911839916,-1.48730291983507,-3.40048911839916,TRUE

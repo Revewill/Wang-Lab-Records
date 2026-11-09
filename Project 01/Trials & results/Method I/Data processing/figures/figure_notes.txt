@@ -1,0 +1,12 @@
+a: full original images retained; proportional scaling with at least 40 pixels of black padding on each side; no trimming. d: images padded black without cropping or intensity adjustment.
+Trial frames: burgundy, mass 1:1; slate, molar 1:1; sand, molar 3:1. Ratios are editor:target.
+b: linear relative-count means and sample SD displayed in log10 coordinates. The lower display floor is not zero; measured zeros appear in a separate band labelled 0; this band is not part of the logarithmic scale. Hollow downward triangles mark SD intervals extending to zero or below.
+b/c: points denote trials. Point shapes: circle R1; triangle R2; square R3.
+c: one bar per metric, with three trial-level points and sample SD. NT/T indices are averaged within each trial before pooling trials; editing remains a Kan-corrected T/NT contrast. No significance test in c. Model outputs are not clipped.
+e: 35 selected colony pairs, including the half-strength samples; bars show pooled means and sample SD. Stars test paired log2 signal contrast conditional on trial/source.
+f: 26 main-strength colony pairs. Colour denotes selection plate; shape denotes NT/T. No inferred clusters are imposed.
+g: six bars show means and SD of trial means; small points show individual colonies. Stars are conditional colony-level T/NT contrasts from script 01.
+h: trial02 only. Descriptive strength comparison; no formal equivalence claim.
+All stars are read from processed annotation columns; no raw p values or n.s. are drawn.
+PCR signal differences are not direct plasmid copy-number measurements.
+SVG contains vector chart elements and embedded original raster images; PNG is exported at 600 dpi.

@@ -1,0 +1,15 @@
+Standards: Area=10-infinity, circularity=0.5-1.0
+1:1
+NT, Amp: 92
+NT, Kan: 1556
+NT, Amp/Kan: 465
+T, Amp: 97
+T, Kan: 980
+T, Amp/Kan: 0
+3:1
+NT, Amp: 230
+NT, Kan: 1537
+NT, Amp/Kan: 244
+T, Amp: 117
+T, Kan: 1556
+T, Amp/Kan: 3

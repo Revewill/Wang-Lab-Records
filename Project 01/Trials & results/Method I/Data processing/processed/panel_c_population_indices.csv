@@ -1,0 +1,7 @@
+"run","group","relative_count.Amp","relative_count.Kan","relative_count.Amp_Kan","co_selection_index","Kan_bias_index","inferred_Amp_only","inferred_Kan_only","population_model_valid","model_note"
+"R1","NT",0.102963184675247,1.01197246333433,0.0894941634241245,0.0872737886748395,0.971218420211065,0.0134690212511224,0.922478299910206,TRUE,"Necessary count inequalities satisfied; model assumptions still required"
+"R1","T",0.0718347800059862,0.988027536665669,0.000897934750074828,0.000847936687394008,0.865912305516266,0.0709368452559114,0.987129601915594,TRUE,"Necessary count inequalities satisfied; model assumptions still required"
+"R2","NT",0.0725552050473186,1.22712933753943,0.366719242902208,0.393068469991547,2.03899721448468,-0.29416403785489,0.860410094637224,FALSE,"Dual exceeds a single-selection yield; not a valid population fraction"
+"R2","T",0.0764984227129338,0.772870662460568,0,0,0.819870009285051,0.0764984227129338,0.772870662460568,TRUE,"Necessary count inequalities satisfied; model assumptions still required"
+"R3","NT",0.148722922728742,0.9938570966699,0.157775622373101,0.160210111621799,1.02189210320563,-0.00905269964435823,0.836081474296799,FALSE,"Dual exceeds a single-selection yield; not a valid population fraction"
+"R3","T",0.075654704170708,1.0061429033301,0.00193986420950533,0.00179640718562874,0.863227354529094,0.0737148399612027,1.00420303912059,TRUE,"Necessary count inequalities satisfied; model assumptions still required"

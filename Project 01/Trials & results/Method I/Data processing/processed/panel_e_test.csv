@@ -1,0 +1,2 @@
+"estimate_log2","se_HC3","df","ci_low","ci_high","p_raw","n_colonies","n_trials","method","scope","contrast","p_adjusted","annotation"
+-1.52229825948434,0.239713752316399,26,-2.01503693421825,-1.02955958475044,1.00310268663342e-06,35,2,"Fixed-effects OLS, HC3, approximate t inference","Exploratory; conditional on observed trials and selected colonies","Sample-weighted mean paired log2(AmpR/KanR); all 35 selected colonies",1.00310268663342e-06,"***"
